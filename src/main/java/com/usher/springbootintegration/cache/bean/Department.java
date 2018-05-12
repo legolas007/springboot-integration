@@ -1,7 +1,11 @@
 package com.usher.springbootintegration.cache.bean;
 
-public class Department {
-	
+import java.io.Serializable;
+
+public class Department implements Serializable{
+
+
+	private static final long serialVersionUID = -7842002511349587889L;
 	private Integer id;
 	private String departmentName;
 	

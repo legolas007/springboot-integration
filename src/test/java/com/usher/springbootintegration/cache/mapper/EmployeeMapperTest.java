@@ -30,6 +30,15 @@ public class EmployeeMapperTest {
 
     @Test
     public void updateEmp() {
+        Employee employee = new Employee();
+        employee.setdId(2);
+        employee.setEmail("dfjvi@qq.com");
+        employee.setGender(0);
+        employee.setLastName("usher");
+        employee.setdId(1);
+        employeeMapper.updateEmp(employee);
+
+        System.out.println(employee);
     }
 
     @Test

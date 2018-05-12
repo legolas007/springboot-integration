@@ -8,4 +8,7 @@ import com.usher.springbootintegration.cache.bean.Employee;
  */
 public interface EmployeeService {
     Employee getEmp(Integer id);
+    Employee updateEmp(Employee employee);
+    void deleteEmp(Integer id);
+    Employee getEmpLastName(String lastName);
 }

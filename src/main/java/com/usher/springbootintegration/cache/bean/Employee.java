@@ -1,7 +1,11 @@
 package com.usher.springbootintegration.cache.bean;
 
-public class Employee {
-	
+import java.io.Serializable;
+
+public class Employee implements Serializable{
+
+
+	private static final long serialVersionUID = 3794331679567797029L;
 	private Integer id;
 	private String lastName;
 	private String email;
