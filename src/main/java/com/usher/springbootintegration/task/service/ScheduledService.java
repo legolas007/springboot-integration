@@ -15,6 +15,6 @@ public class ScheduledService {
      */
     @Scheduled(cron = "0 * * * * MON-SAT")//定时任务
     public void hello(){
-        System.out.println("hello ... ");
+        //System.out.println("hello ... ");
     }
 }
