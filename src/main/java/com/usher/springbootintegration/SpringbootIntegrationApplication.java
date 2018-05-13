@@ -14,6 +14,12 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @EnableRabbit
 @EnableAsync//异步任务
 @EnableScheduling//定时任务
+/**
+ * 自定义健康状态指示器
+ * 编写一个指示器，实现HealthIndicator
+ * 指示器的名字 xxxHealthIndicator
+ * 加入容器
+ */
 public class SpringbootIntegrationApplication {
 
     public static void main(String[] args) {
